@@ -1,0 +1,71 @@
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+.myHeder{
+    background-color:#4a4a4a ;
+    width: 100%;
+    padding: 2%;
+    font-size: 50px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+/* #a3a3a3 */
+.leftDiv{
+
+    float: left;
+    text-align: center;
+    width: 20%;
+    border-radius: 5px;
+    background-color:#a3a3a3 ;
+    padding: 1%;
+    font-size: 18px;
+    margin: 5%;
+}
+.leftDiv input[type=text],.leftDiv select{
+    width: 95%;
+    margin: 2% 0 2% 0;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 5px;
+}
+.leftDiv select{
+    background-color:#a3a3a3 ;
+}
+
+.leftDiv input[type=submit]
+{
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 2% 0;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #eeeeee;
+    font-size: 18px;
+    
+}
+
+img{
+    width: 100px;
+    float: left;
+    padding: 3%;
+}
+.rightDiv{
+    background-color:#a3a3a3 ;
+    width: 50%;
+    float: right;
+    border-radius: 5px;
+
+    margin: 5%;
+}
+table{
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    margin: 8%;
+    border-radius: 5px;
+    padding: 3%;
+}
+td{
+    border: 1px gray solid;
+}
