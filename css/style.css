@@ -49,6 +49,7 @@ img{
     width: 100px;
     float: left;
     padding: 3%;
+    height: 150px;
 }
 .rightDiv{
     background-color:#a3a3a3 ;
@@ -68,4 +69,12 @@ table{
 }
 td{
     border: 1px gray solid;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 2% 0;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #eeeeee;
+    font-size: 18px;
 }

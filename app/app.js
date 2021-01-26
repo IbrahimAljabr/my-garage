@@ -49,7 +49,6 @@ function checkIfEmpty(){
         for (var index = 0; index < newObj.length; index++) {
             var newCar=new Cars(newObj[index].name,newObj[index].cat,newObj[index].modle);
 
-            console.log(newCar);
             newCar.renderCars();
             
         }
@@ -57,7 +56,16 @@ function checkIfEmpty(){
     }
 }
 
+function myFunction() {
+    localStorage.clear();
+    arrayOfCars=[];
+    table.innerHTML="";
+  }
 
+function clearBtn(){
+
+    
+}
 
 function submitForm(event){
     event.preventDefault();
